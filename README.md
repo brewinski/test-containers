@@ -32,3 +32,8 @@ The customer folder has an example of unit tests that start and stop containers.
 
 ### Running Tests
   - Run `go test ./... -v` from the root folder
+
+## Files where example code can be found
+- cmd/dev.go - Example app that starts containers
+- customer/repo_test.go - Example test that uses TestContainer
+- testhelpers/containers.go - Examples of helper functions that define specific containersx
