@@ -9,6 +9,9 @@ Test containers is a project that makes starting and stopping containers with an
 See the website and documentation for more information and examples
   - Repo: https://github.com/testcontainers
   - Website: https://testcontainers.com/
+  - Quick Start: https://golang.testcontainers.org/quickstart/
+  - Guide Articles & Ideas: https://testcontainers.com/guides/
+  - CI/CD Integration: https://testcontainers.com/guides/cicd/
 
 ## Development
 
@@ -33,7 +36,10 @@ The customer folder has an example of unit tests that start and stop containers.
 ### Running Tests
   - Run `go test ./... -v` from the root folder
 
-## Files where example code can be found
-- cmd/dev.go - Example app that starts containers
-- customer/repo_test.go - Example test that uses TestContainer
-- testhelpers/containers.go - Examples of helper functions that define specific containersx
+## Examples
+
+### Relevant project files
+- `cmd/dev.go` - Example app that starts containers
+- `customer/repo_test.go` - Example test that uses TestContainer
+- `testhelpers/containers.go` - Examples of helper functions that define specific containers
+
