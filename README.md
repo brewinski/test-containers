@@ -30,5 +30,5 @@ See the website and documentation for more information and examples
 ## Tests
 The customer folder has an example of unit tests that start and stop containers.
 
-## Running Tests
+### Running Tests
   - Run `go test ./... -v` from the root folder
